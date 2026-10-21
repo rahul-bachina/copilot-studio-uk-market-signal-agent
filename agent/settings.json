@@ -1,0 +1,14 @@
+{
+  "harness": "github-copilot",
+  "model": "environment-default",
+  "memory": "disabled",
+  "status": "draft-preview-only",
+  "webGrounding": "open-web",
+  "defaultHorizon": "3–12 months",
+  "publishing": "disabled-by-scope",
+  "autonomy": "user-led-with-human-review",
+  "uploadedEvidence": "supported-with-source-register",
+  "skills": ["uk-equity-evidence", "human-reviewed-inputs", "uk-market-signal", "verified-market-chart", "approved-report-export"],
+  "tools": ["native-chat-file-upload", "open-web-grounding", "onedrive-get-file-content-using-path-read-only", "excel-list-rows-present-in-table-read-only", "native-approved-word-pdf-generation"],
+  "humanApprovalGates": ["confirm-security-identity", "confirm-analysis-scope", "review-uploaded-evidence-register", "review-score-and-scenarios", "review-complete-draft", "exact-phrase-approve-export"]
+}

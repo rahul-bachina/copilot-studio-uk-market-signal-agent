@@ -1,0 +1,1 @@
+Independently assesses UK-listed equities across fundamentals, valuation, technical condition, news and catalysts, and risk/data quality, returning a transparent evidence score and directional signal.

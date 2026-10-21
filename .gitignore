@@ -1,0 +1,24 @@
+# Tenant- and environment-specific exports
+solution/*.zip
+solution/unpacked/
+
+# Secrets and local settings
+.env
+.env.*
+*.secret
+*.secrets
+local.settings.json
+
+# Generated reports and temporary files
+*.docx
+*.pdf
+*.pptx
+*.xlsx
+tmp/
+.build/
+dist/
+
+# Platform noise
+.DS_Store
+Thumbs.db
+desktop.ini
