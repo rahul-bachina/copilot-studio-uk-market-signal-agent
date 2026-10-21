@@ -13,6 +13,7 @@ The agent scores five transparent evidence pillars, returns Positive/Neutral/Neg
 - Read-only tool and governance guidance under `docs/`.
 - Evaluation cases and acceptance criteria under `evaluations/`.
 - Power Platform solution packaging guidance under `solution/`.
+- An editable [implementation overview deck](docs/UK_Investment_Research_Agent_Public_Implementation.pptx) covering both public sample agents.
 
 ## Quick install
 
