@@ -13,6 +13,7 @@ local.settings.json
 *.docx
 *.pdf
 *.pptx
+!docs/UK_Investment_Research_Agent_Public_Implementation.pptx
 *.xlsx
 tmp/
 .build/
