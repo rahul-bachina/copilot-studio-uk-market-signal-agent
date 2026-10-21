@@ -1,0 +1,20 @@
+name: Validate agent package
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate definitions and skills
+        shell: pwsh
+        run: ./scripts/validate.ps1
+      - name: Build portable packages
+        shell: pwsh
+        run: ./scripts/build-package.ps1
